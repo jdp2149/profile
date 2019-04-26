@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Raleway');
+
+
+body {
+/*  background-color: #FAF6F6;*/
+  /*text-align: center;*/
+  background-color: white;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  overflow-x: hidden;
+  /*ORIENTATION*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+    color: #916953;
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  text-align:center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#introduction {
+  width: 100vw;
+  background-color: #FAF6F6;
+  border-bottom: .5rem solid #FCB5B5;
+  box-shadow: 0px 10px 30px rgba(234, 161, 145, 1);
+}
+
+h2 {
+  color: #D0ADA7;
+  font-family: 'Raleway', sans-serif;
+}
+
+div {
+    display: block;
+}
+
+
+
+
+.card-white {
+    width: 90vw;
+    -webkit-font-smoothing: antialiased;
+    padding: 40px;
+    border-radius: 4px;
+    text-align: center;
+
+  }
+
+.container {
+  -webkit-font-smoothing: antialiased;
+  /*width: 500px; */
+  width: 90vw;
+  margin: 10px 0px;
+  padding: 40px 40px;
+  box-shadow: 0px 10px 30px rgba(234, 161, 145, 1);
+  border-radius: 4px; /* This automatically sets left/right margins */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #CF8E80;
+}
+
+
+li {
+  text-align:center;
+  font-family: 'Lora', serif;
+
+  }
+
+a {text-align:center;
+  text-decoration: none;}
+
+a:hover { transition: opacity 0.2s ease-in-out 0s;
+    opacity: 1 }
+
+.button {
+    width: 200px;
+    background-color: #CF8E80;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    transition: 1s background-color ease-in-out;
+}
+
+.button:hover {
+  background-color: #EAA191;
+}
+
+.list-inline {
+  display: flex;
+  justify-content: space-around;
+  /*text-align:center;*/
+  list-style: none;
+}
+
+
+
+
+/*units of measure for Front-End
+PX
+REM
+EM
+%PERCENTAGE
+VW
+VH*/
